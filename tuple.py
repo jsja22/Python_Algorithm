@@ -9,4 +9,4 @@ def solution(s):
         for k in numbers:
             if int(k) not in answer:
                 answer.append(int(k))
-    return answer#
+    return answer
