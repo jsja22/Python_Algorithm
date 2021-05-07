@@ -51,7 +51,7 @@ def solution(words, queries):
 
         insert(trie[length_word], word)
         insert(reversed_trie[length_word], word[::-1])
-
+#
     # 찾기
     for query in queries:
         length_query = len(query)
