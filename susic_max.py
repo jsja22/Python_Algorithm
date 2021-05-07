@@ -9,7 +9,6 @@ def calculator(a, b, p):
     if p == '+':
         return a + b
     return a - b
- 
 def make_priority(index, priority, visited, temp):
     # 마지막까지 왔다면 수식 추가
     if index == 3:
