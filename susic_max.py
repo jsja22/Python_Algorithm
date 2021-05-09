@@ -2,7 +2,7 @@
 # 기본수식
 basic_formula = ['+', '-', '*']
  
-# 간단한 계산을 해주는 함수
+# 간단한 계산을 해주는 함수#
 def calculator(a, b, p):
     if p == '*':
         return a * b
